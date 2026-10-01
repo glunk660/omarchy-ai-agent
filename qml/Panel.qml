@@ -6,7 +6,7 @@ import qs.Ui
 
 Panel {
   id: root
-  moduleName: "thomas.ai-agent"
+  moduleName: "glunk.ai-agent"
 
   KeyboardPanel {
     id: panel

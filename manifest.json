@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "thomas.ai-agent",
+  "id": "glunk.ai-agent",
   "name": "AI Agent Assistant",
   "version": "1.0.0",
-  "author": "Thomas",
+  "author": "Glunk",
   "license": "MIT",
   "description": "Your AI agent assistant widget for the Omarchy status bar, sitting right next to screen time.",
   "kinds": [

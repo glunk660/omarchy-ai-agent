@@ -11,13 +11,19 @@ An extension addon for the [Omarchy](https://omarchy.org/) Linux desktop shell t
 
 ## Installation
 
-Clone or symlink this addon into your Omarchy plugins directory:
+Add this plugin to your Omarchy shell:
 
 ```bash
-git clone https://github.com/ton-pseudo/omarchy-ai-agent.git ~/.config/omarchy/plugins/thomas.ai-agent
+omarchy plugin add https://github.com/glunk660/omarchy-ai-agent.git
 ```
 
-Then add it to your bar layout via Omarchy commands or `shell.json`.
+Then enable and place it on your bar:
+
+```bash
+omarchy plugin enable glunk.ai-agent
+omarchy bar move glunk.ai-agent --section right
+omarchy restart shell
+```
 
 ## License
 
