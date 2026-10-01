@@ -9,6 +9,11 @@ An extension addon for the [Omarchy](https://omarchy.org/) Linux desktop shell t
 - **Interactive Panel**: Quick popup panel to check agent state, prompts, and shortcuts.
 - **Hot-reloading**: Built on Quickshell for instant style and code reloads.
 
+## Dependencies
+
+- [Omarchy](https://omarchy.org/) desktop shell
+- [Quickshell](https://quickshell.outfoxxed.me/) (QtQuick / QML window and shell framework)
+
 ## Installation
 
 Add this plugin to your Omarchy shell:
@@ -22,6 +27,16 @@ Then enable and place it on your bar:
 ```bash
 omarchy plugin enable glunk.ai-agent
 omarchy bar move glunk.ai-agent --section right
+omarchy restart shell
+```
+
+## Removal
+
+To disable and remove the plugin from your Omarchy shell:
+
+```bash
+omarchy plugin disable glunk.ai-agent
+omarchy plugin remove glunk.ai-agent
 omarchy restart shell
 ```
 
