@@ -1,11 +1,11 @@
 # Omarchy AI Agent Extension
 
-An extension addon for the [Omarchy](https://omarchy.org/) Linux desktop shell that places an AI Agent assistant widget right next to your Screen Time widget in the top status bar.
+An extension addon for the [Omarchy](https://omarchy.org/) Linux desktop shell that places an AI Agent assistant widget in the top status bar.
 
 ## Features
 
 - **Status Bar Integration**: Clean, native bar icon matching Omarchy design language.
-- **Side-by-Side with Screen Time**: Designed to complement usage tracking with active AI agent status.
+- **Active Status Indicator**: Designed to display and monitor active AI agent status.
 - **Interactive Panel**: Quick popup panel to check agent state, prompts, and shortcuts.
 - **Hot-reloading**: Built on Quickshell for instant style and code reloads.
 
